@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('/nasaimages/losangeles.jpeg');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('nasaimages/losangeles.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -96,7 +96,7 @@ body {
 .card-side.back {
     transform: rotateY(-180deg); /* Hide the back side initially */
     background-color: #4158D0;
-    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('/nasaimages/download\ \(2\).jpeg');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('nasaimages/download\ \(2\).jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
