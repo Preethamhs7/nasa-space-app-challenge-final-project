@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('/nasaimages/2ndpage.png');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('nasaimages/2ndpage.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -115,33 +115,33 @@ body {
 }
 
 #box1::before {
-    background-image: url('/nasaimages/indiana (6x1.5).jpg');
+    background-image: url('nasaimages/indiana (6x1.5).jpg');
 }
 
 #box2::before {
-    background-image: url('/nasaimages/box 2 background.jpg');
+    background-image: url('nasaimages/box 2 background.jpg');
 }
 
 #box3::before {
-    background-image: url('/nasaimages/box 3 backgroud.jpg');
+    background-image: url('nasaimages/box 3 backgroud.jpg');
 }
 
 /* Remove blur and apply linear-gradient on hover */
 #box1:hover::before, #box2:hover::before, #box3:hover::before {
     filter: blur(0); /* Remove the blur on hover */
-    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('/nasaimages/indiana (6x1.5).jpg');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('nasaimages/indiana (6x1.5).jpg');
     transform: scale(1.05); /* Scale the image slightly */
     z-index: -1; /* Keep the image behind the content */
 }
 
 /* Hover for #box2 */
 #box2:hover::before {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('/nasaimages/box 2 background.jpg');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('nasaimages/box 2 background.jpg');
 }
 
 /* Hover for #box3 */
 #box3:hover::before {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('/nasaimages/box 3 backgroud.jpg');
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url('nasaimages/box 3 backgroud.jpg');
 }
 
 #box1:hover, #box2:hover, #box3:hover {
